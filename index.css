@@ -8,6 +8,10 @@
 	src: url("fonts/CaviarDreams.ttf")
 }
 @font-face {
+	font-family: caviarb;
+	src: url("fonts/CaviarDreams_Bold.ttf")
+}
+@font-face {
 	font-family: basic;
 	src: url("fonts/MyriadPro.ttf")
 }
@@ -19,6 +23,15 @@
 	font-family: lo;
 	src: url("fonts/Kylets Demo.ttf")
 }
+@font-face{
+	font-family: latose;
+	src: url("fonts/Latose.ttf")
+}
+@font-face{
+	font-family: El;
+	src: url("fonts/Elronmonospace.ttf")
+}
+
 html,body{
 	margin:0;
 	padding:0;
@@ -152,20 +165,67 @@ html,body{
 	left:51%
 }
 .pbod1{
-	background-color:#C39798;
+	background: linear-gradient(to right, #FFE9E7, #E2B4B4);
 	position: absolute;
 	width:100%;
-	height: 100%;
+	height: 200%;
+	top:7.55%;
 }
-.titleb{
-	position:absolute;
-	left:15%;
-	width: 70%;
-	background-color:white;
-	height:100%;
+.nav{
+	background-color: #EAA8AA;
+	width:100%;
+	height:250px;
 }
+.boxes{
+	position: absolute;
+	font-family:caviarb;
+	font-size:30px;
+	color:#FFFFFF;;
+	border:none;
+	top:2.5%;
+	left:5%;
+	width:23%;
+	height:7%;
+	background-color:#C3C1FF;
+	background: linear-gradient(to bottom right, #CBCAFF, #A4A2D9);
+	border-radius: 40px;
+}
+.boxes1{
+	left:38%;
+}
+.boxes2{
+	left:71%;
+}
+
 .newhe{
-	width: 40%;
-	background-color:black;
-	height:2%;
+	background-color:#3C3C3C;
+	width:9%;
+	height: 7px;
+	position: absolute;
+	top: 43%;
+	left: 45.5%;
+}
+
+.newhe1{
+	top:47.5%;
+}
+.newh{
+	width:7px;
+	background-color:#3C3C3C;
+	height:5.3%;
+	position: absolute;
+	top: 43%;
+	left: 45.5%;
+}
+.newh1{
+	left:54.5%;
+}
+.anot{
+	font-family:El;
+	position:absolute;
+	top:41.5%;
+	text-align:center;
+	letter-spacing: 2px;
+	font-size:1.5vw;
+	left: 46.3%;
 }
