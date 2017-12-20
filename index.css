@@ -28,10 +28,17 @@
 	src: url("fonts/Latose.ttf")
 }
 @font-face{
+	font-family: latob;
+	src: url("fonts/Lato-Bold.ttf")
+}
+@font-face{
 	font-family: El;
 	src: url("fonts/Elronmonospace.ttf")
 }
-
+@font-face{
+	font-family: lato;
+	src: url("fonts/Lato-Regular.ttf");
+}
 html,body{
 	margin:0;
 	padding:0;
@@ -169,12 +176,12 @@ html,body{
 	position: absolute;
 	width:100%;
 	height: 200%;
-	top:7.55%;
+	top:75px;
 }
 .nav{
 	background-color: #EAA8AA;
 	width:100%;
-	height:250px;
+	height:14.12%;
 }
 .boxes{
 	position: absolute;
@@ -228,4 +235,63 @@ html,body{
 	letter-spacing: 2px;
 	font-size:1.5vw;
 	left: 46.3%;
+}
+.linn{
+	background-color:#3C3C3C;
+	width:36%;
+	height: 7px;
+	position: absolute;
+	top: 45.3%;
+	left:50px;
+}
+.linn2{
+	left:61%;
+}
+.mbg{
+	position:absolute;
+	background-color:#C6DEFF;
+	width:92%;
+	height: 170%;
+	left: 4%;
+	top: 52%;
+	box-shadow: 0px 0px 40px #717171
+}
+.card{
+	position: absolute;
+	border:none;
+	background-color:#FFFFFF;
+	width: 90%;
+	height: 15%;
+	left:5%;
+	top:6%;
+	border-radius: 40px;
+	line-height: 35px;
+}
+.butxt{
+	position:absolute;
+	font-size:2vw;
+	font-family:latob;
+	bottom:45%;
+	left:5%;
+}
+.quot{
+	text-align:left;
+	position:absolute;
+	left:5%;
+	top:35%;
+	width:90%;
+	font-size:1.2vw;
+	font-family:lato
+}
+.card2{
+	top:25%
+}
+.card3{
+	top:45%
+}
+.card4{
+	top:55.5%
+}
+.card5{
+	top:66.5%
 }
