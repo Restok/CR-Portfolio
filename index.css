@@ -204,7 +204,11 @@ html,body{
 	top:25%;
 	left:5%;
 	width:23%;
+<<<<<<< HEAD
 	height:40%;
+=======
+	height:3.5%;
+>>>>>>> f3b0fd5528b0ae9aab6db8755d11e2b13fc37492
 	background-color:#C3C1FF;
 	background: linear-gradient(to bottom right, #CBCAFF, #A4A2D9);
 	border-radius: 40px;
@@ -302,6 +306,7 @@ html,body{
 	font-family:lato
 }
 .card2{
+<<<<<<< HEAD
 	top:22.8%
 }
 .card3{
@@ -556,3 +561,16 @@ br {
 	  top:40%;
 	  left:45%;
   }
+=======
+	top:20.8%
+}
+.card3{
+	top:36.8%
+}
+.card4{
+	top:52.8%
+}
+.card5{
+	top:68.8%
+}
+>>>>>>> f3b0fd5528b0ae9aab6db8755d11e2b13fc37492
